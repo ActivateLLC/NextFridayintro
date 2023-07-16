@@ -143,7 +143,7 @@ function _inheritsLoose(subClass, superClass) {
  * @license Copyright 2008-2022, GreenSock. All rights reserved.
  * Subject to the terms at https://greensock.com/standard-license or for
  * Club GreenSock members, the agreement issued with that membership.
- * @author: Jack Doyle, **greensock.com
+ * @author: Jack Doyle, jack@greensock.com
 */
 
 /* eslint-disable */
@@ -3709,7 +3709,7 @@ var _gsapCore = require("./gsap-core.js");
  * Copyright 2008-2022, GreenSock. All rights reserved.
  * Subject to the terms at https://greensock.com/standard-license or for
  * Club GreenSock members, the agreement issued with that membership.
- * @author: Jack Doyle, **greensock.com
+ * @author: Jack Doyle, jack@greensock.com
 */
 
 /* eslint-disable */
@@ -5109,7 +5109,7 @@ exports.default = exports.ScrollTrigger = void 0;
  * 
  * @license Copyright 2022, GreenSock. All rights reserved.
  * Subject to the terms at https://greensock.com/standard-license or for Club GreenSock members, the agreement issued with that membership.
- * @author: Jack Doyle, **greensock.com
+ * @author: Jack Doyle, jack@greensock.com
  */
 
 let e,
@@ -6143,7 +6143,7 @@ exports.default = exports.ScrollSmoother = void 0;
  * This is a trial version that only works locally and on domains like codepen.io and codesandbox.io.
  * Loading it on an unauthorized domain violates the license and will cause a redirect.
  * Get the unrestricted file by joining Club GreenSock at https://greensock.com/club
- * @author: Jack Doyle, **greensock.com
+ * @author: Jack Doyle, jack@greensock.com
  */
 
 let e,
@@ -7073,7 +7073,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61719" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35297" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
