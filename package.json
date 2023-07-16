@@ -1,0 +1,25 @@
+{
+    "name": "Next-Friday",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+      "start": "parcel index.html --open",
+      "build": "parcel build index.html"
+    },
+    "dependencies": {
+      "@parcel/config-default": "^2.8.3",
+      "@parcel/core": "^2.8.3",
+      "gsap-trial": "3.10.2",
+      "parcel-bundler": "^1.6.1"
+    },
+    "devDependencies": {
+      "@babel/core": "7.2.0",
+      "parcel": "^2.8.3"
+    },
+    "resolutions": {
+      "@babel/preset-env": "7.13.8"
+    },
+    "keywords": []
+  }
+  

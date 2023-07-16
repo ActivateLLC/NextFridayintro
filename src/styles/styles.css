@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+:root {
+  --dark: #1d1d1d;
+  --grey-dark: #414141;
+  --light: #fff;
+  --white: #fff;
+  --mid: #ededed;
+  --grey: #989898;
+  --gray: #989898;
+  --green: #28a92b;
+  --green-dark: #4e9815;
+  --green-light: #6fb936;
+  --blue: #2c7ad2;
+  --purple: #8d3dae;
+  --red: #c82736;
+  --orange: #e77614;
+  --color: #8ac640;
+  accent-color: var(--green);
+  --black: #000000;
+  --soft: #eee;
+  scrollbar-width: none;
+}
+
+body {
+  min-height: 100vh;
+  padding: 0;
+  color: var(--light);
+  font-family: "Signika Negative", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 1.1rem;
+  margin: 0;
+  line-height: 1.45;
+  text-align: center;
+  padding: 3rem 2rem;
+  overscroll-behavior: none;
+  scrollbar-width: none;
+}
+::-webkit-scrollbar {
+  webkit-appearance: none;
+  width: 0;
+}
+
+.t-bold {
+  font-weight: 300;
+}
+
+.preloader-master {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  font-weight: 200;
+}
+#smooth-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  max-width: 800px;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  color: #6fb936;
+}
+
+code {
+  text-align: left;
+  font-size: 0.9rem !important;
+}
+
+#split {
+  opacity: 0;
+}
+
+.scroll-down {
+  margin-top: 4rem;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+  overflow: visible;
+}
+
+.scroll-down .arrow {
+  position: relative;
+  filter: invert(1);
+  top: -4px;
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KPHBhdGggZmlsbD0iYmxhY2siIGQ9Ik00ODMuMiwxOTIuMmMtMjAuNS0yMC41LTUzLjUtMjAuOC03My43LTAuNkwyNTcsMzQ0LjFMMTA0LjUsMTkxLjZjLTIwLjItMjAuMi01My4yLTE5LjktNzMuNywwLjYKCWMtMjAuNSwyMC41LTIwLjgsNTMuNS0wLjYsNzMuN2wxOTAsMTkwYzEwLjEsMTAuMSwyMy40LDE1LjEsMzYuOCwxNWMxMy4zLDAuMSwyNi43LTQuOSwzNi44LTE1bDE5MC0xOTAKCUM1MDMuOSwyNDUuNyw1MDMuNywyMTIuNyw0ODMuMiwxOTIuMnoiLz4KPC9zdmc+);
+  background-size: contain;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10rem 1rem;
+}
+
+.spacer {
+  height: 100vh;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  color: var(--light);
+  margin: 150px 0;
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.purple {
+  background-color: var(--purple);
+}
+
+.green {
+  background-color: var(--green);
+}
+
+.orange {
+  background-color: var(--orange);
+}
+
+.red {
+  background-color: var(--red);
+}
+html {
+  scrollbar-width: none;
+  font-family: var(--sans);
+  font-size: calc(100vw / 1366 * 10);
+}
+
+.t-color {
+  color: var(--color);
+}
+.e-color {
+  background: var(--color);
+}
+.e-black {
+  background: #000;
+}
+.t-black {
+  color: #000;
+}
+.t-soft {
+  color: var(--soft);
+}
+.e-soft {
+  background: var(--soft);
+}
+.e-dn {
+  display: none;
+}
+.e-flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.e-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lined {
+  display: inline-block;
+  position: relative;
+}
+.lined:hover:after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.lined:after {
+  content: "";
+  background: currentColor;
+  bottom: 0.25rem;
+  height: 1px;
+  left: 0;
+  opacity: 0.6;
+  position: absolute;
+  width: 100%;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
